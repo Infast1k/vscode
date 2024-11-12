@@ -1,0 +1,186 @@
+{
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "breadcrumbs.enabled": false,
+  "editor.unicodeHighlight.includeStrings": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.cursorBlinking": "expand",
+  "codeium.enableCodeLens": false,
+  "python.languageServer": "Pylance",
+  "python.createEnvironment.trigger": "off",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.indexing": true,
+  "python.analysis.packageIndexDepths": [
+    {
+      "name": "django",
+      "depth": 10,
+      "includeAllSymbols": true,
+    },
+    {
+      "name": "rest_framework",
+      "depth": 10,
+      "includeAllSymbols": true,
+    }
+  ],
+  "explorer.compactFolders": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "plaintext": true,
+    "ignore": true,
+    "markdown": true
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "NOTE"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "NOTE": {
+      "icon": "pencil",
+      "background": "#89b4fa",
+      "iconColour": "#89b4fa",
+      "foreground": "#11111b",
+    },
+    "BUG": {
+      "icon": "bug",
+      "background": "#f38ba8",
+      "iconColour": "#f38ba8",
+      "foreground": "#11111b",
+    },
+    "HACK": {
+      "icon": "tools",
+      "background": "#f9e2af",
+      "iconColour": "#f9e2af",
+      "foreground": "#11111b",
+    },
+    "FIXME": {
+      "icon": "flame",
+      "background": "#f38ba8",
+      "iconColour": "#f38ba8",
+      "foreground": "#11111b",
+    },
+    "TODO": {
+      "background": "#fab387",
+      "iconColour": "#fab387",
+      "foreground": "#11111b",
+    },
+    "XXX": {
+      "icon": "x",
+      "background": "#11111b",
+      "iconColour": "#11111b",
+      "foreground": "#cdd6f4",
+    },
+    "[ ]": {
+      "icon": "issue-draft",
+      "background": "#cba6f7",
+      "iconColour": "#cba6f7",
+      "foreground": "#11111b",
+    },
+    "[x]": {
+      "icon": "issue-closed",
+      "background": "#a6e3a1",
+      "iconColour": "#a6e3a1",
+      "foreground": "#11111b",
+    }
+  },
+  "makefile.configureOnOpen": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "window.zoomLevel": -1,
+  "editor.matchBrackets": "never",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.glyphMargin": false,
+  "editor.tokenColorCustomizations": {
+    "comments": "#2ea542",
+  },
+  "editor.wordBasedSuggestions": "off",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.roundedSelection": false,
+  "editor.minimap.enabled": true,
+  "editor.renderLineHighlight": "none",
+  "editor.lineNumbers": "relative",
+  "editor.folding": false,
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": true,
+  "diffEditor.renderSideBySide": false,
+  "vim.enableNeovim": false,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+  "vim.leader": "<space>",
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-e>": false,
+    "<C-w>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    }
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.format.enable": false,
+  "window.closeWhenEmpty": true,
+  "diffEditor.renderIndicators": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "go.buildFlags": [
+    "-v"
+  ],
+  "go.useLanguageServer": true,
+  "go.testEnvFile": "",
+  "go.toolsManagement.autoUpdate": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.cursorSurroundingLines": 10,
+  "workbench.enableExperiments": false,
+  "telemetry.telemetryLevel": "off",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.neovimUseConfigFile": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 4,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "extensions.ignoreRecommendations": true,
+  "editor.guides.indentation": false,
+}
